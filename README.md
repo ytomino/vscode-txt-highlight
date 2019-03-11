@@ -1,65 +1,32 @@
 # txt-highlight README
 
-This is the README for your extension "txt-highlight". After writing up a brief description, we recommend including the following sections.
+This package provides a separated language mode for `.txt` files, to
+differentiate from the standard plain text mode.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Another plain text mode.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Some additional frequently used brackets are highlighted.
 
 ## Extension Settings
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+This extension has no settings.
+However, you can set some associated settings by `settings.json`.
 
-For example:
+The name of new mode is "Text (`txt`)".
 
-This extension contributes the following settings:
+Note: The name of the standard mode is "Plain Text (`plaintext`)".
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
+### The example of settings.json:
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+```json
+    "[txt]":{
+        "editor.fontSize": 14,
+        "editor.wordWrap": "wordWrapColumn"
+    },
+```
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+See [Changelog](./CHANGELOG.md).

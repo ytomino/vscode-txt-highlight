@@ -15,11 +15,6 @@
             "aliases": ["Text", "txt"],
             "extensions": [".txt"],
             "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "txt",
-            "scopeName": "",
-            "path": "./syntaxes/txt.tmLanguage.json"
         }]
     }
 }

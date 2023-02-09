@@ -1,4 +1,8 @@
 {
+    "wordPattern": {
+        "pattern": "[\\p{L}\\p{Pc}][\\p{L}\\p{Pc}\\p{Pd}\\p{Join_C}\\p{N}]*",
+        "flags": "gu",
+    },
     // symbols used as brackets
     "brackets": [
         ["{", "}"],
